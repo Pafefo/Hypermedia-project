@@ -1,0 +1,296 @@
+/*I added the same font as the one I used on the figma web*/
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+/*The general specification for the whole code*/
+body
+{
+    font-family:Blinker, sans-serif;
+    font-size: 22px;
+    background-color: #DCCFBC;
+    display: flex;
+    justify-content:  center;
+}
+/*General parameters specs*/
+h1
+{
+    color: Black;
+    background-color: #C7B294;
+    font-size: 42px;
+    font-weight: 600 ;
+    padding: 45px 20px 57px 30px;
+    margin: 55px 130px 0px 120px;
+    max-width: 450;
+    min-width: 450;
+    display: flex;
+    justify-content: center;
+}
+h2
+{
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+ul
+{
+    list-style-type:square;
+}
+h3
+{
+    margin-bottom: -7;
+    font-size: 23;
+}
+
+/*id specs*/
+#mine
+{
+    width: 532;
+
+
+}
+#smartphone
+{
+    margin-bottom: 34px;
+}
+#mail
+{
+    margin-bottom: 25px;
+}
+#adress
+{
+    margin-bottom: 20px;
+    width: 35px;
+}
+#insta
+{
+    margin-bottom: 20px;
+   
+}
+/*classes speces*/
+/*left side cdd code*/
+.left
+{
+    background-color: #C7B294;
+    margin-top: -8;
+    margin-left: 300;
+    width: 532;
+    max-width: 532;
+    flex: 2.14;
+    padding-bottom: 20px;
+}
+/*Specs for the left information*/
+.info_left
+{
+    margin-left: 45px;
+    margin-top: 35px;
+}
+/*Specs fot the contact zone information*/
+.contact
+{
+    display: flex;
+    margin-bottom: 0px;
+}
+.contact_img
+{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+.contact_text
+{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+/*Specs fot the eduction zone information*/
+.uni
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+.uni_left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+}
+.uni_right
+{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.bac
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -40;
+}
+.bac_left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+}
+.bac_right
+{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.ul_left
+{
+    margin-top: -25;    
+}
+.eso   
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -10;
+}
+.eso_left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+}
+.eso_right
+{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+/*Specs for the languages zone*/
+.languages
+{
+    margin-top: 40px;
+}
+
+
+/*Right side css code*/
+.info_right
+{
+    margin-left: 150px;
+}
+/*Profil specs*/
+.profile
+{
+    width: 410px;
+    height: 225px;
+    margin: 50px 0px 33px -30px;
+    padding: 5px 50px 0px 35px;
+    text-align: justify;
+    font-size: 22.1px;
+    line-height: 28px;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    border-color: #C7B294;
+}
+.profile h2
+{
+    margin-bottom: -5;
+}
+/*Expereince specs*/
+.experience
+{
+    width: 419;
+    height: 620;
+    margin-left: -30px;
+    padding: 30px 42px 0px 35px;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    border-color: #C7B294;
+    
+    display: flex;
+    flex-direction: column;
+}
+.experience1
+{
+    height: 270;
+    display: flex;
+    flex-direction: row;
+}
+/*Warehous worker*/
+.experience_right1
+{
+    border: black;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 0px 10px 0px 14px;
+    margin-left: 10;
+    flex: 2;
+}
+.info_right1
+{
+    line-height: 3;
+}
+.experience_left1
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1.5;
+    flex: 1.08;
+}
+/*Cashier*/
+.experience2
+{
+    display: flex;
+    flex-direction: row;
+    height: 270;
+}
+.experience_right2
+{
+    border: black;
+    border: 1px solid;
+    padding: 0px 10px 0px 5px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.experience_left2
+{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 3;
+    font-weight: lighter;
+    flex: 1.12;
+}
+/*Personal Project specs*/
+.PP
+{
+    margin-top: 20px;
+    margin-left: -30px;
+    width: 440px;
+    height: 225px;
+    max-width: 410px;
+    padding: 8px 50px 0px 35px;
+    text-align: justify;
+    line-height: 28px;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    border-color: #C7B294;
+}
+/*Competences specs*/
+.competences
+{
+    margin-top: 20px;
+    margin-left: -30px;
+    width: 440px;
+    height: 225px;
+    max-width: 410px;
+    padding: 5px 50px 0px 35px;
+    text-align: justify;
+    background-color: #D9D9D9;
+    border: 1px solid;
+    border-color: #C7B294;
+}
